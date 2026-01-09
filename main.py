@@ -25,8 +25,8 @@ def newton_raphson(f, df, x0, tolerance=1e-6, max_iter=100):
 
 def main():
     print("Newton-Raphson Numerical Solver")
-    print("--------------------------------")
-
+ 
+ print("--------------------------------")
     # User inputs equation
     equation = input("Enter f(x) (example: x**2 - 2): ")
     derivative = input("Enter f'(x) (example: 2*x): ")
@@ -46,4 +46,3 @@ def main():
 
 if _name_ == "_main_":
     main()
-    
